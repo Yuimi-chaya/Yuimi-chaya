@@ -1,24 +1,26 @@
+<img align="right" width="180" src="./assets/perfect-answer.png" alt="木更与结婚登记申请书">
+
 # 当你问我，世界上最完美的东西是什么
 
-我：
+我：结婚登记表。
 
-<p align="center">
-  <img src="./assets/perfect-answer.png" width="520" alt="木更与结婚登记申请书">
-</p>
+这是一道主观题，但我只接受这一种答案。
 
-<p align="center"><sub>这是一道主观题，但我只接受这一种答案。</sub></p>
+如果你有不同意见，也可以保留。
+
+本页暂不接受申诉。
+
+<br clear="right">
 
 ---
 
 ## 你怎么还在往下翻
 
+<img align="right" width="240" src="./assets/kisara-reaction-rounded.gif" alt="木更略略略">
+
 这里没有精心准备的技术履历，也没有改变世界的开源项目。
 
 只有一个普通互联网居民，以及一些时不时发生变化的兴趣。
-
-<p align="center">
-  <img src="./assets/kisara-reaction-rounded.gif" width="620" alt="木更略略略">
-</p>
 
 > [!NOTE]
 > 本页面不提供技能证明，仅用于存放兴趣、木更和一些偶尔能够运行的代码。
@@ -31,6 +33,8 @@
 </p>
 
 既然你还没有走，那就随便说一点。
+
+<br clear="right">
 
 ---
 
@@ -103,16 +107,16 @@
 
 ## 当 AI 第六次告诉我“问题已经修复”
 
+<img align="right" width="260" src="./assets/combat-mode.png" alt="木更战斗形态">
+
 而页面依然是一片空白：
 
 > [!WARNING]
 > 木更已进入战斗模式。建议 AI 重新检查它声称已经修复的内容。
 
-<p align="center">
-  <img src="./assets/combat-mode.png" width="100%" alt="木更战斗形态">
-</p>
-
 请它重新组织一下语言。
+
+<br clear="right">
 
 ---
 
