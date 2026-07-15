@@ -20,6 +20,16 @@
   <img src="./assets/kisara-reaction-rounded.gif" width="620" alt="木更略略略">
 </p>
 
+> [!NOTE]
+> 本页面不提供技能证明，仅用于存放兴趣、木更和一些偶尔能够运行的代码。
+
+<p align="center">
+  <kbd>VIBE CODING</kbd>&nbsp;
+  <kbd>BLOG DESIGN</kbd>&nbsp;
+  <kbd>LLM RP</kbd>&nbsp;
+  <kbd>MMD</kbd>
+</p>
+
 既然你还没有走，那就随便说一点。
 
 ---
@@ -94,6 +104,9 @@
 ## 当 AI 第六次告诉我“问题已经修复”
 
 而页面依然是一片空白：
+
+> [!WARNING]
+> 木更已进入战斗模式。建议 AI 重新检查它声称已经修复的内容。
 
 <p align="center">
   <img src="./assets/combat-mode.png" width="100%" alt="木更战斗形态">
