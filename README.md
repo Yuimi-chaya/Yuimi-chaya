@@ -1,4 +1,10 @@
-# Yuimi Chaya
+<h1 align="center">Hi there 👋, I'm</h1>
+
+<p align="center">
+  <a href="https://github.com/Yuimi-chaya">
+    <img src="https://readme-typing-svg.demolab.com?font=IBM+Plex+Mono&weight=600&size=34&duration=2600&pause=1100&color=7C3AED&center=true&vCenter=true&width=520&height=52&lines=Yuimi+Chaya" alt="Yuimi Chaya" />
+  </a>
+</p>
 
 <p align="center">
   <strong>Open-source engineering · Interactive frontend · Hands-on LLM / Agent practice</strong><br>
@@ -11,7 +17,7 @@
   <a href="https://github.com/BigPizzaV3/CodexPlusPlus">CodexPlusPlus</a>
 </p>
 
-## About / 关于我
+## 👤 About / 关于我
 
 I'm **Yuimi Chaya**, an independent developer working across open-source engineering, interactive frontend experiences, and practical LLM / Agent experimentation.
 
@@ -21,7 +27,7 @@ Most of my work starts with something I actually use. I trace the behavior throu
 
 我的很多工作都从真实使用中遇到的问题开始：沿着现有系统追踪行为，把问题落实为可运行的实现，在实际环境中测试，并根据审查与反馈继续迭代。
 
-## Working Areas / 实践方向
+## 🧭 Working Areas / 实践方向
 
 | Area / 方向 | What I work on / 实践内容 |
 | --- | --- |
@@ -29,9 +35,9 @@ Most of my work starts with something I actually use. I trace the behavior throu
 | **Interactive frontend / 交互式前端** | Multi-theme web experiences, state-driven motion, Canvas / WebGL, audio, responsive behavior, and interaction details.<br>多主题 Web 体验、状态驱动动效、Canvas / WebGL、音频、响应式适配与交互细节。 |
 | **LLM / Agent practice / LLM 与 Agent 实践** | Persona prompts, tool-use continuity, memory behavior, model failure modes, and AI-assisted developer workflows.<br>人设提示词、工具调用连续性、记忆行为、模型失效模式与 AI 辅助开发工作流。 |
 
-## Selected Work / 代表工作
+## 🚀 Selected Work / 代表工作
 
-### [CodexPlusPlus](https://github.com/BigPizzaV3/CodexPlusPlus) - Open-source engineering / 开源工程
+### 🔧 [CodexPlusPlus](https://github.com/BigPizzaV3/CodexPlusPlus) - Open-source engineering / 开源工程
 
 I contribute to the ongoing maintenance of a real-world Tauri desktop project. My merged work crosses Rust core logic, React / TypeScript UI, Tauri commands, SQLite state, renderer integration, tests, and CI.
 
@@ -44,7 +50,7 @@ I contribute to the ongoing maintenance of a real-world Tauri desktop project. M
 
 这些贡献并不只展示最终代码，也保留了从真实问题、实现、外部审查、修正到合入的完整过程。
 
-### [Yuimi Lab](https://yuimi-chaya.github.io) - Interactive personal site / 交互式个人站点
+### 🎨 [Yuimi Lab](https://yuimi-chaya.github.io) - Interactive personal site / 交互式个人站点
 
 [Source](https://github.com/Yuimi-chaya/Yuimi-chaya.github.io) · `Astro` `TypeScript` `Canvas` `WebGL` `Pagefind`
 
@@ -56,7 +62,7 @@ The site includes scroll-driven scenes, Canvas and WebGL effects, persistent aud
 
 站点包含滚动驱动场景、Canvas 与 WebGL 效果、持久化音频控制、小游戏、响应式布局、低动态偏好适配、生命周期清理与性能检查。
 
-### LLM, Agent, and developer-practice notes / LLM、Agent 与开发实践记录
+### 🧠 LLM, Agent, and developer-practice notes / LLM、Agent 与开发实践记录
 
 These notes document hands-on observations and experiments from real LLM / Agent use. They focus on persona-prompt design, role-play consistency, memory and tool-use failures, plugin reliability, and ways of organizing AI-assisted development.
 
@@ -67,7 +73,7 @@ These notes document hands-on observations and experiments from real LLM / Agent
 - [用 Vibe Coding 写博客后，我最想说的不是“分享提示词”](https://yuimi-chaya.github.io/blog/vibe-coding-blog-notes/)
 - [Codex App 用久以后，我留下的这些使用习惯](https://yuimi-chaya.github.io/blog/codex-app-usage-notes/)
 
-## How I Work / 我的工作方式
+## 🛠️ How I Work / 我的工作方式
 
 AI is part of my implementation workflow, but it does not replace product or engineering judgment. I define the direction and constraints, provide references and counterexamples, inspect the source and diffs, test real behavior, and decide whether a result is actually acceptable.
 
