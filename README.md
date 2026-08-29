@@ -69,7 +69,7 @@ These notes document hands-on observations and experiments from real LLM / Agent
 这些文章记录真实 LLM 与 Agent 使用中的实践观察和实验，主要涉及人设提示词设计、角色扮演一致性、记忆与工具调用问题、插件可靠性，以及 AI 辅助开发的组织方式。
 
 - [给 AstrBot 写人设提示词这件事，我踩过的一些坑](https://yuimi-chaya.github.io/blog/astrbot-roleplay-persona-notes/)
-- [我做 AstrBot 插件这一年，最值钱的其实不是代码](https://yuimi-chaya.github.io/blog/astrbot-plugin-dev-experience/)
+- [CodexPlusPlus参与构建的经验](https://yuimi-chaya.github.io/blog/codexplusplus-open-source-learning/)
 - [用 Vibe Coding 写博客后，我最想说的不是“分享提示词”](https://yuimi-chaya.github.io/blog/vibe-coding-blog-notes/)
 - [Codex App 用久以后，我留下的这些使用习惯](https://yuimi-chaya.github.io/blog/codex-app-usage-notes/)
 
