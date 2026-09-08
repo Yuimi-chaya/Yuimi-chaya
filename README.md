@@ -7,82 +7,79 @@
 </p>
 
 <p align="center">
-  <strong>Open-source engineering · Interactive frontend · Hands-on LLM / Agent practice</strong><br>
-  开源工程 · 交互式前端 · LLM 与 Agent 实践
+  <strong>开源贡献 · Agent 开发准则 · LLM 角色交互</strong><br>
+  从真实使用出发，把经验整理成项目与文章。
 </p>
 
 <p align="center">
-  <a href="https://yuimi-chaya.github.io">Yuimi Lab</a> ·
-  <a href="https://github.com/Yuimi-chaya/Yuimi-chaya.github.io">Blog source</a> ·
-  <a href="https://github.com/BigPizzaV3/CodexPlusPlus">CodexPlusPlus</a>
+  <a href="https://yuimi-chaya.github.io">个人博客 / Yuimi Lab</a> ·
+  <a href="https://github.com/BigPizzaV3/CodexPlusPlus">CodexPlusPlus</a> ·
+  <a href="./README.en.md">English</a>
 </p>
 
-## 👤 About / 关于我
+## 👤 关于我
 
-I'm **Yuimi Chaya**, an independent developer working across open-source engineering, interactive frontend experiences, and practical LLM / Agent experimentation.
+我是 **Yuimi Chaya**。我的工作大多从自己正在使用的工具和真实需求开始：参与开源维护、研究 Agent 协作方式，也长期实践 LLM 角色交互。
 
-我是 **Yuimi Chaya**，一名独立开发者，主要进行开源工程、交互式前端体验，以及 LLM 与 Agent 的实践探索。
+我以 **AI Agent 为主要实现工具**，负责问题拆解、方向与约束、交互体验判断、测试验收，以及审查后的返工。我也会提供素材、参考与反例，让实现贴合具体的使用场景。
 
-Most of my work starts with something I actually use. I trace the behavior through an existing system, turn the problem into a concrete implementation, test it in real use, and keep iterating through review.
+通过线上平台接单解决客户需求，我获得了继续实践的收入，再将所得投入开源项目维护、Agent 工作流和 LLM RP 研究。遇到值得记录的问题，就把过程与发现写进个人博客。
 
-我的很多工作都从真实使用中遇到的问题开始：沿着现有系统追踪行为，把问题落实为可运行的实现，在实际环境中测试，并根据审查与反馈继续迭代。
+## 🚀 开源与项目
 
-## 🧭 Working Areas / 实践方向
+### 🔧 [CodexPlusPlus](https://github.com/BigPizzaV3/CodexPlusPlus) · 开源贡献
 
-| Area / 方向 | What I work on / 实践内容 |
-| --- | --- |
-| **Open-source engineering / 开源工程** | Desktop developer tools, runtime behavior, compatibility fixes, state consistency, and maintainable changes inside existing codebases.<br>桌面开发者工具、运行时行为、兼容性修复、状态一致性，以及尊重既有架构的可维护改动。 |
-| **Interactive frontend / 交互式前端** | Multi-theme web experiences, state-driven motion, Canvas / WebGL, audio, responsive behavior, and interaction details.<br>多主题 Web 体验、状态驱动动效、Canvas / WebGL、音频、响应式适配与交互细节。 |
-| **LLM / Agent practice / LLM 与 Agent 实践** | Persona prompts, tool-use continuity, memory behavior, model failure modes, and AI-assisted developer workflows.<br>人设提示词、工具调用连续性、记忆行为、模型失效模式与 AI 辅助开发工作流。 |
+与 Codex CLI / Codex App 紧密相关的第三方桌面工具，提供模型供应商管理、会话管理与扩展功能。我持续参与项目维护，将实际使用中遇到的问题推进为上游改动。
 
-## 🚀 Selected Work / 代表工作
+**项目 30k+ stars · 个人 29 个上游合并提交**<br>
+<sub>项目规模记录于 2026-09-09；个人提交统计截至 2026-09-08。</sub>
 
-### 🔧 [CodexPlusPlus](https://github.com/BigPizzaV3/CodexPlusPlus) - Open-source engineering / 开源工程
+[贡献经历与复盘](https://yuimi-chaya.github.io/blog/codexplusplus-open-source-learning/)
 
-I contribute to the ongoing maintenance of a real-world Tauri desktop project. My merged work crosses Rust core logic, React / TypeScript UI, Tauri commands, SQLite state, renderer integration, tests, and CI.
+<details>
+<summary>查看部分合入记录</summary>
 
-我参与这个真实使用中的 Tauri 桌面项目的持续维护。已合入的工作横跨 Rust 核心逻辑、React / TypeScript 界面、Tauri 命令、SQLite 状态、渲染层集成、测试与 CI。
+- [#1822 · 供应商内按模型路由](https://github.com/BigPizzaV3/CodexPlusPlus/pull/1822)：让不同模型使用各自的路由配置，并根据审查修复校验与首次启动一致性问题。
+- [#1519 · 供应商状态同步与无项目任务恢复](https://github.com/BigPizzaV3/CodexPlusPlus/pull/1519)：处理供应商切换、会话迁移、重启与失败恢复。
+- [#1556 · 自定义供应商 Web Search 恢复](https://github.com/BigPizzaV3/CodexPlusPlus/pull/1556)：恢复自定义 Responses 的搜索行为，并处理 `-lite` 行为与供应商边界。
 
-- [Provider-scoped per-model routing (#1822)](https://github.com/BigPizzaV3/CodexPlusPlus/pull/1822): added routing at model granularity, then fixed validation and first-start consistency issues found during review with restart, rollback, and regression tests.
-- [Live provider state sync and projectless task recovery (#1519)](https://github.com/BigPizzaV3/CodexPlusPlus/pull/1519): handled provider switching, session migration, transactional persistence, relaunch behavior, rollback, and diagnostics.
-- [Custom Responses web search restoration (#1556)](https://github.com/BigPizzaV3/CodexPlusPlus/pull/1556): restored web-search behavior for custom providers, added `-lite` handling, and protected provider boundaries with tests and CI coverage.
-- Other merged work includes task-index cleanup safeguards, Codex model compatibility, image overlay modes, and animated pet runtime compatibility.
+</details>
 
-这些贡献并不只展示最终代码，也保留了从真实问题、实现、外部审查、修正到合入的完整过程。
+### 🧭 [codex-development-guidelines](https://github.com/Yuimi-chaya/codex-development-guidelines) · Agent 开发准则
 
-### 🎨 [Yuimi Lab](https://yuimi-chaya.github.io) - Interactive personal site / 交互式个人站点
+一个可移植的 **Agent 开发准则参考库**，以及用于安装、配置这些准则的 `adopt-agent-policy` Skill。
 
-[Source](https://github.com/Yuimi-chaya/Yuimi-chaya.github.io) · `Astro` `TypeScript` `Canvas` `WebGL` `Pagefind`
+覆盖六个板块：**上下文与记忆、委派与工具、媒体与传输、环境与阻力、文件与恢复、验证与资源**。
 
-Yuimi Lab is a multi-theme personal site where writing, themed presentation, sound, scenes, and small interactive experiences live together. Its themes are not recolors: each owns its layouts, styles, runtime, and visual language while sharing the same content collection.
+核心设计是把 **工作期间如何行动** 与 **这些规则应如何配置** 分开：运行时规范约束 Agent 的行为，安装 Skill 通过询问发现用户偏好，并结合当前环境配置准则。
 
-Yuimi Lab 是一个把文章、主题化呈现、声音、场景与小型互动放在一起的多主题个人站点。不同主题并非简单换色，而是各自拥有独立的布局、样式、运行时和视觉语言，同时共享同一份内容。
+行为原则不绑定某个模型提供商、操作系统或 Agent 产品；已有指令也不会在安装时被直接覆盖。一切从真实环境与用户偏好出发。
 
-The site includes scroll-driven scenes, Canvas and WebGL effects, persistent audio controls, mini-games, responsive layouts, reduced-motion handling, lifecycle cleanup, and performance checks.
+### 🧠 [LLM RP Role Prompt Authoring](https://github.com/Yuimi-chaya/llm-rp-role-prompt-authoring) · 角色聊天 Prompt 方法
 
-站点包含滚动驱动场景、Canvas 与 WebGL 效果、持久化音频控制、小游戏、响应式布局、低动态偏好适配、生命周期清理与性能检查。
+受 **HDS Interlude（HDSI）** 启发，将长期 LLM RP 与 AstrBot 角色交互服务中的经验，通过个人实验整理为面向自然一对一角色聊天的 Prompt 作者工程，并提供可直接使用的双语 Skill。
 
-### 🧠 LLM, Agent, and developer-practice notes / LLM、Agent 与开发实践记录
+与直接要求模型“你是 XXX”“你将扮演 XXX”相比，这套方法采用**写作者视角**：模型根据上下文、系统提示词、可用工具与用户输入，续写当前角色此刻会说出的话。
 
-These notes document hands-on observations and experiments from real LLM / Agent use. They focus on persona-prompt design, role-play consistency, memory and tool-use failures, plugin reliability, and ways of organizing AI-assisted development.
+重点是分开 **聊天中的人物** 与 **负责运行人物的执行者**：平台、工具和记忆是后台工作条件，面向用户的输出仍然是角色直接发送的消息。通过这种分工，探索如何减少两个身份之间的来回切换，让互动更连贯自然。
 
-这些文章记录真实 LLM 与 Agent 使用中的实践观察和实验，主要涉及人设提示词设计、角色扮演一致性、记忆与工具调用问题、插件可靠性，以及 AI 辅助开发的组织方式。
+[研究与实践文章](https://yuimi-chaya.github.io/blog/llm-rp-role-prompt-authoring-researchzh-cn/)
 
-- [给 AstrBot 写人设提示词这件事，我踩过的一些坑](https://yuimi-chaya.github.io/blog/astrbot-roleplay-persona-notes/)
-- [CodexPlusPlus参与构建的经验](https://yuimi-chaya.github.io/blog/codexplusplus-open-source-learning/)
-- [用 Vibe Coding 写博客后，我最想说的不是“分享提示词”](https://yuimi-chaya.github.io/blog/vibe-coding-blog-notes/)
-- [Codex App 用久以后，我留下的这些使用习惯](https://yuimi-chaya.github.io/blog/codex-app-usage-notes/)
+### 🎨 [个人博客 / Yuimi Lab](https://yuimi-chaya.github.io) · 设计与写作
 
-## 🛠️ How I Work / 我的工作方式
+基于 **Astro** 构建的个人博客，拥有多套风格不同的主题设计。不同主题拥有各自的布局、样式、运行时与视觉语言，共享同一份文章内容。
 
-AI is part of my implementation workflow, but it does not replace product or engineering judgment. I define the direction and constraints, provide references and counterexamples, inspect the source and diffs, test real behavior, and decide whether a result is actually acceptable.
+我主导**视觉验收、交互手感、素材准备与样式方向设计**，AI 协助生成代码。站点包含滚动场景、音频与小型互动，也持续关注响应式适配、低动态偏好与性能。
 
-AI 是我实现工作流的一部分，但不会替代产品与工程判断。我负责确定方向与约束、提供参考和反例、检查源码与差异、测试真实行为，并判断结果是否真正达到要求。
+博客源码开源，文章持续更新。我会把开源协作、Agent 工作流、LLM 角色交互中的经验与发现整理出来，让作品与写作一起积累。
 
-`Rust` · `TypeScript` · `React` · `Tauri` · `Astro` · `SQLite` · `Canvas` · `WebGL`
+[访问博客](https://yuimi-chaya.github.io) · [查看源码](https://github.com/Yuimi-chaya/Yuimi-chaya.github.io)
 
----
+## 📝 文章与复盘
 
-<p align="center">
-  <sub>Start from real use. Keep the evidence inspectable.<br>从真实使用出发，让能力留下可以核验的证据。</sub>
-</p>
+- [不把 Agent 写死,从一套规则到一套判断方法](https://yuimi-chaya.github.io/blog/agents-development-guidelines/)：从 AGENTS.md 与子代理，到媒体预算和可迁移的开发准则。
+- [不必让模型成为角色：从写作视角重新理解 LLM 私聊](https://yuimi-chaya.github.io/blog/llm-rp-role-prompt-authoring-researchzh-cn/)：HDSI 的启发、写作视角与角色聊天中的自然感。
+- [GPT5.6时期 Codex App 的一些使用心得](https://yuimi-chaya.github.io/blog/codex-app-usage-notes/)：项目、线程、笔记与子代理的使用经验。
+- [用 Vibe Coding 写博客后,我最想说的不是“分享提示词”](https://yuimi-chaya.github.io/blog/vibe-coding-blog-notes/)：想法、反例、截图、素材与反复返工。
+- [我做 AstrBot 插件这一年,最值钱的其实不是代码](https://yuimi-chaya.github.io/blog/astrbot-plugin-dev-experience/)：插件开发中的稳定性、约束与真实交付。
+- [适用于单模型角色扮演第一人称人设的写作参考](https://yuimi-chaya.github.io/blog/astrbot-roleplay-persona-notes/)：人设提示词、角色表达与限制词的取舍。
