@@ -7,10 +7,6 @@
 </p>
 
 <p align="center">
-  <strong>开源贡献 · Agent 开发准则 · LLM 角色交互</strong><br>
-</p>
-
-<p align="center">
   <a href="https://yuimi-chaya.github.io">个人博客 / Yuimi Lab</a> ·
   <a href="https://github.com/BigPizzaV3/CodexPlusPlus">CodexPlusPlus</a> ·
   <a href="./README.en.md">English</a>
