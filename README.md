@@ -26,8 +26,8 @@
 
 与 Codex CLI / Codex App 紧密相关的第三方桌面工具，提供模型供应商管理、会话管理与扩展功能。我持续参与项目维护，将实际使用中遇到的问题推进为上游改动。
 
-**项目 30k+ stars · 个人 30 个上游合并提交**<br>
-<sub>项目规模记录于 2026-09-09；个人提交统计截至 2026-09-08。</sub>
+**项目 30k+ stars · 个人 41 个上游合并提交**<br>
+<sub>项目规模记录于 2026-09-09；个人提交统计截至 2026-09-17。</sub>
 
 [贡献经历与复盘](https://yuimi-chaya.github.io/blog/codexplusplus-open-source-learning/)
 
